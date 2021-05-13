@@ -3,7 +3,7 @@ import { location } from './const.js';
 import data from './geojson.json';
 
 const { nakanoshima, sunshine60 } = location;
-mapboxgl.accessToken = 'pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrbzN3YmxzaTBocDIycG1samg5b2hoYm4ifQ.KAbQSw_coyJY103rU_tkUg';
+mapboxgl.accessToken = 'pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrbzN3ZGRydzB1eXMyd3MyaWJiMmh3MG4ifQ.1wYns4Zn2l64ZFAaMQC17A';
 
 
 const init = () => {
