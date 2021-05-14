@@ -9,7 +9,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrbzN3ZGRydzB1eXMyd3MyaWJiM
 const init = () => {
   var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mtsnow/ckoav8v1o0e7i17ljjw5cgex2', // stylesheet location
+    style: 'https://api.mapbox.com/styles/v1/mtsnow/ckoav8v1o0e7i17ljjw5cgex2.html?fresh=true&title=view&access_token=pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrb24wMjNlbzA5N24yeGs3dm94aTd2bm4ifQ.AxRMN70f1ntix0562aEgrQ',
     center: sunshine60, // starting position [lng, lat]
     zoom: 7 // starting zoom
   });
