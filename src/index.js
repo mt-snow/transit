@@ -4,6 +4,7 @@ import data from './geojson.json';
 
 const { nakanoshima, sunshine60 } = location;
 mapboxgl.accessToken = 'pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrbzN3ZGRydzB1eXMyd3MyaWJiMmh3MG4ifQ.1wYns4Zn2l64ZFAaMQC17A';
+mapboxgl.accessToken = 'pk.eyJ1IjoibXRzbm93IiwiYSI6ImNrb24wMjNlbzA5N24yeGs3dm94aTd2bm4ifQ.AxRMN70f1ntix0562aEgrQ';
 
 const init = () => {
   var map = new mapboxgl.Map({
